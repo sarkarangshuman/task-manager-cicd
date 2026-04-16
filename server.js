@@ -8,7 +8,7 @@ app.use(express.json());
 let tasks = [];
 
 app.get('/', (req, res) => {
-    res.send('Task Manager API is running 🚀');
+    res.send('CI/CD is working 🚀');
 });
 
 app.get('/health', (req, res) => {
