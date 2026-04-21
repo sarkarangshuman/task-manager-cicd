@@ -8,7 +8,7 @@ app.use(express.json());
 let tasks = [];
 
 app.get('/', (req, res) => {
-    res.send('CI/CD AUTOMATION SUCCESSFUL');
+    res.send('CI/CD AUTOMATION SUCCESSFULY UPDATED');
 });
 
 app.get('/health', (req, res) => {
